@@ -1,3 +1,5 @@
+package Graph;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -23,7 +25,7 @@ public class Graph {
     public void addEdge(int i,int j)
     {
         adj[i].add(j);
-        adj[j].add(i);
+     //   adj[j].add(i);
     }
 
     public int getV() {
